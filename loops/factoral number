@@ -1,0 +1,6 @@
+var number = 6;
+var factorial = 1;
+for (var i = 1; i <= number; i++) {
+    factorial *= i;
+}
+console.log("Factorial:", factorial);
