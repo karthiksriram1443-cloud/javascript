@@ -1,0 +1,6 @@
+function iseven (x){
+    return x%2==0;
+}
+console.log(iseven(4));
+console.log(iseven(7));
+console.log(iseven(9));
