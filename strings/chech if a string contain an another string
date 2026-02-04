@@ -1,0 +1,6 @@
+function contain (str,subsrt){
+    return str.includes(subsrt);
+}
+console.log(contain("welcome to coding","coding"));
+    console.log(contain("welcome to python","python"));
+    console.log(contain("welcome to javascript","c++"));

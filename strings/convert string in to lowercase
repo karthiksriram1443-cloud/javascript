@@ -1,0 +1,4 @@
+function toLowercase(str){
+    return str.toLowerCase();
+}
+console.log(toLowercase("HELLO WORLD"));

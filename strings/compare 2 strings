@@ -1,0 +1,6 @@
+function comparestring (str1 ,str2){
+    return str1 === str2;
+}
+console.log(comparestring("hello","hello"));
+console.log(comparestring("ball","ball"));
+console.log(comparestring("javascript","java"));

@@ -1,0 +1,5 @@
+function externalsubstring (str, start, end){
+    return str.substring(start, end);
+}
+console.log(externalsubstring("welcome to krishna ccoding",2,11));
+

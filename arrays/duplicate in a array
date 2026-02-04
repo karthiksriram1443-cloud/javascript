@@ -1,0 +1,19 @@
+function getDuplicate(arr) {
+    const duplicateArr = [];
+    const seen = new Set();
+    const added = new Set();
+
+    for (var index = 0; index < arr.length; index++) {
+        if (seen.has(arr[index]) && !added.has(arr[index])) {
+            duplicateArr.push(arr[index]);
+            added.add(arr[index]);
+        } else {
+            seen.add(arr[index]);
+        }
+    }
+
+    return duplicateArr;
+}
+
+const data = [10, 34, 56, 78, 11, 9, 9, 11];
+console.log(getDuplicate(data)); 

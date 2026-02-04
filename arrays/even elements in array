@@ -1,0 +1,12 @@
+function getEvenNum(arr) {
+    const evenNumbersArr = [];
+    for (var index = 0; index < arr.length; index++) {
+        if (arr[index] % 2 === 0) {
+            evenNumbersArr.push(arr[index]);
+        }
+    }
+    return evenNumbersArr;
+}
+
+const data = [10, 34, 56, 78, 11, 9];
+console.log(getEvenNum(data)); 

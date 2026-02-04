@@ -1,0 +1,4 @@
+function countcharacters(str){
+    return str.replace(/\s+/g, '').length;
+}
+console.log(countcharacters("hi welcome to coding krishna webpage"));
