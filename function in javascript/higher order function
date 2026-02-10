@@ -1,0 +1,5 @@
+var ary =[10,20,30,40];
+
+var newarry =ary.map((x) => x+10);
+
+console.log(newarry);

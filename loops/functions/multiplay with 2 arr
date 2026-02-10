@@ -6,4 +6,3 @@ function multiplywith2(arr){
 }
 const numbers=[2,5,7,9];
 console.log(multiplywith2(numbers));
-

@@ -1,0 +1,2 @@
+var x=(name)=>console.log("this is arrow function")
+x();

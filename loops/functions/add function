@@ -3,3 +3,14 @@ return x+y;
 }
 console.log(add(3,4));
 console.log(add(10,15));
+
+
+function printnumbers(n){
+    if(n<=0){
+        return;
+    }
+    printnumbers(n-1);
+    console.log(n);
+
+}
+printnumbers(8);

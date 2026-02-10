@@ -1,0 +1,5 @@
+var add = (a,b) => a+b;
+var sub = (a,b) => a-b;
+var calculate = (a,b,opp) => opp(a,b)
+console.log(calculate(5,10,add));
+console.log(calculate(5,10,sub));
