@@ -1,0 +1,2 @@
+var somemethod = [2,3,4,5].some((ele) => ele >5);
+console.log(somemethod);

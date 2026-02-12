@@ -1,0 +1,2 @@
+var fillmethod = [1,2,3,4].fill(100);
+console.log(fillmethod);

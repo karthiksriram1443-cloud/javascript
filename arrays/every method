@@ -1,0 +1,2 @@
+var everymethod = [1,2,3].every((ele) => ele >3);
+console.log(everymethod);

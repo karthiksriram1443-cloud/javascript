@@ -1,0 +1,2 @@
+var reversemethod =[1,2,3,4].reverse();
+console.log(reversemethod);
