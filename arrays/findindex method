@@ -1,0 +1,2 @@
+var indexmethod = [1,2,3,4].findIndex((ele) => ele ===3);
+console.log(indexmethod);
