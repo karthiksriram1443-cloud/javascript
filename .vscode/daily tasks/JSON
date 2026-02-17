@@ -1,0 +1,9 @@
+
+const json ={ name:"karthik",
+    age :"22",
+    gender : "male",
+    adress : "villag:rly koduru",
+    "district" : "tirupati",
+    "state":"andhra pradesh",
+}
+console.log(((json)));

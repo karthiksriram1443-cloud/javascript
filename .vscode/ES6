@@ -1,0 +1,42 @@
+ var name = "karthik";
+const age =22;
+console.log(name+" "+age);
+    
+    
+    //arrow method//
+
+    var sub =(a,b) => a-b;
+    console.log(sub(10,20));
+
+    // template literals//
+    var name = "karthik";
+    var age1 =22;
+    console.log (`my name is ${name} and my age is ${age1}`);
+
+
+    // call back function//
+    function add(a,b,callback){
+        var sum= a+b;
+        callback(sum);
+    }
+    function display (result){
+console.log(result);
+    }
+    add(10,20,display);
+
+    // promise function//
+    var promise = new Promise(function(resolve,reject){
+        var a = 10;
+        var b = 20;
+        if(a+b > 25){
+            resolve("sum is greater than 25");
+        }
+        else{
+            reject("sum is less than 25");
+        }
+    });
+    promise.then(function(result){
+        console.log(result);
+    }).catch(function(error){
+        console.log(error);
+    });
