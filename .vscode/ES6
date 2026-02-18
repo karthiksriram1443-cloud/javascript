@@ -28,7 +28,7 @@ console.log(result);
     var promise = new Promise(function(resolve,reject){
         var a = 10;
         var b = 20;
-        if(a+b > 25){
+        if(a+b < 25){
             resolve("sum is greater than 25");
         }
         else{

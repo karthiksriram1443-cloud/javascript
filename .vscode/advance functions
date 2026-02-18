@@ -1,0 +1,35 @@
+// rest function//
+
+function sum(...numbers) {
+  return numbers.reduce((a, b) => a + b);
+}
+
+console.log(sum(1,2,3,4)); 
+
+//Functions destructiring//
+function display({name, age}) {
+  console.log(name, age);
+}
+
+display({name:"Karthik", age:22});
+
+//Asnys function//
+async function fetchData() {
+  return "Data received";
+}
+
+fetchData().then(console.log);
+
+//Closure function//
+function counter() {
+  let count = 0;
+
+  return function() {
+    count++;
+    console.log(count);
+  };
+}
+
+const increment = counter();
+increment();
+increment(); 
